@@ -1,0 +1,31 @@
+/* common */
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    width: 1500px;
+}
+
+/* header영역 */
+
+header {
+    margin: 20px 0;
+}
+
+header div.top .logo{
+    float: left;
+}
+
+header div.top .menu {
+    float: right;
+}
+
+header div.top .menu .
